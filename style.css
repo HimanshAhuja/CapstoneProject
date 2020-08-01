@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to top, lime 0%, cyan 100%)fixed;
+}
+
+.block nav ul {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+}
+
+.block a {
+    text-decoration: none;
+    background-color: limegreen;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    margin: 10px
+}
+
+.block ul li {
+    list-style: none;
+}
+
+.div2 {
+    text-align: center;
+}
+
+.div3 {
+    text-align: center;
+}
+
+.div4 {
+    text-align: center;
+}
+
+.macindows {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px;
+    padding: 50px;
+    justify-content: space-evenly;
+}
